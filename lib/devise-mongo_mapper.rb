@@ -1,0 +1,1 @@
+require 'devise/orm/mongo_mapper'
