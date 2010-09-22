@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.email         = ['brandon@collectiveidea.com']
   s.homepage      = "http://github.com/collectiveidea/devise-mongo_mapper"
   s.summary       = "MongoMapper ORM for devise"
-  s.files         = Dir.glob('lib/**/*')
+  s.files         = Dir.glob('lib/**/*') + ['README.md']
   s.require_path  = 'lib'
 
   s.required_rubygems_version = ">= 1.3.6"
