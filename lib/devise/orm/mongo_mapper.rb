@@ -28,6 +28,15 @@ module MongoMapper
     module ClassMethods
       include ::Devise::Models
       include ::Devise::Orm::MongoMapper::Hook
+
+      def find(*args)
+        if args.first == :first
+          args.shift
+          first(*args)
+        else
+          super
+        end
+      end
     end
   end
 end
