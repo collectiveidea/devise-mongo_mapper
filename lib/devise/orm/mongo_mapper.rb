@@ -25,6 +25,8 @@ end
 
 module MongoMapper
   module Devise
+    extend ActiveSupport::Concern
+
     module ClassMethods
       include ::Devise::Models
       include ::Devise::Orm::MongoMapper::Hook
