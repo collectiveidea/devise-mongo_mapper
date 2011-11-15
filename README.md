@@ -2,11 +2,9 @@
 
 ## Installation
 
-Use the rails3 branch of MongoMapper, and add devise-mongo_mapper to your Gemfile
+Add MongoMapper and devise-mongo_mapper to your Gemfile
 
-    gem 'mongo_mapper',
-      :git    => 'git://github.com/jnunemaker/mongomapper',
-      :branch => 'rails3'
+    gem 'mongo_mapper'
     gem 'devise-mongo_mapper',
       :git    => 'git://github.com/collectiveidea/devise-mongo_mapper
 
